@@ -45,7 +45,9 @@ func main() {
   }
 
   window.IMShow(img)
-  if window.WaitKey(1) >= 0 {
-    return
+  for {
+    if window.WaitKey(1) >= 0 {
+      break
+    }
   }
 }
