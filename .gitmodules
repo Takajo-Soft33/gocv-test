@@ -1,9 +1,6 @@
 [submodule "opencv"]
 	path = opencv
 	url = https://github.com/opencv/opencv.git
-[submodule "SSD-TensorFlow"]
-	path = SSD-TensorFlow
-	url = https://github.com/balancap/SSD-Tensorflow.git
 [submodule "ssdtf"]
 	path = ssdtf
 	url = https://github.com/balancap/SSD-Tensorflow.git
